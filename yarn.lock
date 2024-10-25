@@ -125,12 +125,12 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@types/node@22.7.9":
-  version "22.7.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.9.tgz#2bf2797b5e84702d8262ea2cf843c3c3c880d0e9"
-  integrity sha512-jrTfRC7FM6nChvU7X2KqcrgquofrWLFDeYC1hKfwNWomVvrn7JIksqf344WN2X/y8xrgqBd2dJATZV4GbatBfg==
+"@types/node@22.8.0":
+  version "22.8.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.8.0.tgz#193c6f82f9356ce0e6bba86b59f2ffe06e7e320b"
+  integrity sha512-84rafSBHC/z1i1E3p0cJwKA+CfYDNSXX9WSZBRopjIzLET8oNt6ht2tei4C7izwDeEiLLfdeSVBv1egOH916hg==
   dependencies:
-    undici-types "~6.19.2"
+    undici-types "~6.19.8"
 
 "@vscode/vsce-sign-alpine-arm64@2.0.2":
   version "2.0.2"
@@ -1826,7 +1826,7 @@ underscore@^1.12.1:
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.7.tgz#970e33963af9a7dda228f17ebe8399e5fbe63a10"
   integrity sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==
 
-undici-types@~6.19.2:
+undici-types@~6.19.8:
   version "6.19.8"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
