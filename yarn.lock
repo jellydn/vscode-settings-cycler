@@ -178,9 +178,9 @@
   integrity sha512-pAiRN6qSAhDM5SVOIxgx+2xnoVUePHbRNC7OD2aOR3WltTKxxF25OfpK8h8UQ7A0BuRkSgREbB59DBlFk4iAeg==
 
 "@vscode/vsce-sign@^2.0.0":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign/-/vsce-sign-2.0.4.tgz#b4bf155d16f2a4badc069df850dc86f756124842"
-  integrity sha512-0uL32egStKYfy60IqnynAChMTbL0oqpqk0Ew0YHiIb+fayuGZWADuIPHWUcY1GCnAA+VgchOPDMxnc2R3XGWEA==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign/-/vsce-sign-2.0.5.tgz#8850036476dc0d4e080d9c2d8325e3e97eff5193"
+  integrity sha512-GfYWrsT/vypTMDMgWDm75iDmAOMe7F71sZECJ+Ws6/xyIfmB3ELVnVN+LwMFAvmXY+e6eWhR2EzNGF/zAhWY3Q==
   optionalDependencies:
     "@vscode/vsce-sign-alpine-arm64" "2.0.2"
     "@vscode/vsce-sign-alpine-x64" "2.0.2"
