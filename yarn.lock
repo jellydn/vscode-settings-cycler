@@ -88,23 +88,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^3.26.1":
-  version "3.26.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-3.26.1.tgz#2f4368d7997682db30dca52e32fcac363fa0efad"
-  integrity sha512-y78sr9g61aCAH9fcLO1um+oHFXc1/5Ap88RIsUSuzkm0BHzFnN+PXGaQeuM1h5Qf5dTnWNOd6JqkskkMPAhh7Q==
+  version "3.27.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-3.27.0.tgz#b6f02f73c8e102d3f115009b4677539fb173fe2b"
+  integrity sha512-+b4ZKSD8+vslCtVRVetkegEhOFMLP3rxDWJY212ct+2r6jVg6OSQKc1Qz3kCoXo0FgwaXkb+76TMZfpHp8QtgA==
   dependencies:
-    "@azure/msal-common" "14.15.0"
+    "@azure/msal-common" "14.16.0"
 
-"@azure/msal-common@14.15.0":
-  version "14.15.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-14.15.0.tgz#0e27ac0bb88fe100f4f8d1605b64d5c268636a55"
-  integrity sha512-ImAQHxmpMneJ/4S8BRFhjt1MZ3bppmpRPYYNyzeQPeFN288YKbb8TmmISQEbtfkQ1BPASvYZU5doIZOPBAqENQ==
+"@azure/msal-common@14.16.0":
+  version "14.16.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-14.16.0.tgz#f3470fcaec788dbe50859952cd499340bda23d7a"
+  integrity sha512-1KOZj9IpcDSwpNiQNjt0jDYZpQvNZay7QAEi/5DLubay40iGYtLzya/jbjRPLyOTZhEKyL1MzPuw2HqBCjceYA==
 
 "@azure/msal-node@^2.15.0":
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-2.15.0.tgz#50bf8e692a6656027c073a75d877a8a478aafdfd"
-  integrity sha512-gVPW8YLz92ZeCibQH2QUw96odJoiM3k/ZPH3f2HxptozmH6+OnyyvKXo/Egg39HAM230akarQKHf0W74UHlh0Q==
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-2.16.0.tgz#028ac69bc75738d6744dab3e3f20f8240f4f6e2c"
+  integrity sha512-oww0oJTOOvPKTVXqVyxfcFVjExQKYEkKR5KM0cTG3jnzt6u/MRMx8XaK49L/bxV35r9sCHQFjNlEShad9qGSYA==
   dependencies:
-    "@azure/msal-common" "14.15.0"
+    "@azure/msal-common" "14.16.0"
     jsonwebtoken "^9.0.0"
     uuid "^8.3.0"
 
@@ -480,9 +480,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 cross-spawn@^7.0.0:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
-  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.5.tgz#910aac880ff5243da96b728bc6521a5f6c2f2f82"
+  integrity sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -1393,9 +1393,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 object-inspect@^1.13.1:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.2.tgz#dea0088467fb991e67af4058147a24824a3043ff"
-  integrity sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.3.tgz#f14c183de51130243d6d18ae149375ff50ea488a"
+  integrity sha512-kDCGIbxkDSXE3euJZZXzc6to7fCrKHNI/hSRQnRuQ+BWjFNzZwiFF8fj/6o2t2G9/jTj8PSIYTfCLelLZEeRpA==
 
 object-is@^1.1.5:
   version "1.1.6"
