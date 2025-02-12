@@ -1,6 +1,6 @@
 # Settings Cycler
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This is a fork of https://github.com/hoovercj/vscode-api-playground/tree/master/SettingsCycler
@@ -138,6 +138,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AbsurdlySuspicious"><img src="https://avatars.githubusercontent.com/u/46577212?v=4?s=100" width="100px;" alt="AbsurdlySuspicious"/><br /><sub><b>AbsurdlySuspicious</b></sub></a><br /><a href="https://github.com/jellydn/vscode-settings-cycler/commits?author=AbsurdlySuspicious" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://productsway.com/"><img src="https://avatars.githubusercontent.com/u/870029?v=4?s=100" width="100px;" alt="Dung Duc Huynh (Kaka)"/><br /><sub><b>Dung Duc Huynh (Kaka)</b></sub></a><br /><a href="https://github.com/jellydn/vscode-settings-cycler/commits?author=jellydn" title="Code">💻</a> <a href="https://github.com/jellydn/vscode-settings-cycler/commits?author=jellydn" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
