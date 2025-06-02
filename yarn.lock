@@ -98,23 +98,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^4.2.0":
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.12.0.tgz#0f6568c40fc1bef4153a1f29fce1fc6ff09d75b4"
-  integrity sha512-WD1lmVWchg7wn1mI7Tr4v7QPyTwK+8Nuyje3jRpOFENLRLEBsdK8VVdTw3C+TypZmYn4cOAdj3zREnuFXgvfIA==
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.13.0.tgz#a8777fab55544433581b52dd7f86e3de1532dde6"
+  integrity sha512-n2ySryLd+wHmm/0Y1mwFI4J9UXVCu2DeWKtoWNWLVcpvK2k0Ez1qIigKleUm2ZfTbfAXdue+V8htmFft0qgyGQ==
   dependencies:
-    "@azure/msal-common" "15.6.0"
+    "@azure/msal-common" "15.7.0"
 
-"@azure/msal-common@15.6.0":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.6.0.tgz#0764d6446eeff3970221995e25f265fdb218da66"
-  integrity sha512-EotmBz42apYGjqiIV9rDUdptaMptpTn4TdGf3JfjLvFvinSe9BJ6ywU92K9ky+t/b0ghbeTSe9RfqlgLh8f2jA==
+"@azure/msal-common@15.7.0":
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.7.0.tgz#03833058fc21e16f5dde0540ebe6233dfdd0dd2b"
+  integrity sha512-m9M5hoFoxhe/HlXNVa4qBHekrX60CVPkWzsjhKQGuzw/OPOmurosKRPDIMn8fug/E1hHI5v33DvT1LVJfItjcg==
 
 "@azure/msal-node@^3.5.0":
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.5.3.tgz#02f7a2344a2c2994354a0cec125b9ef9a8e7109b"
-  integrity sha512-c5mifzHX5mwm5JqMIlURUyp6LEEdKF1a8lmcNRLBo0lD7zpSYPHupa4jHyhJyg9ccLwszLguZJdk2h3ngnXwNw==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.6.0.tgz#4b9bd4b8bbdd6914ec6a09834672639cd0059a3c"
+  integrity sha512-MRZ38Ou6l9LiRkz/968mG0czfIvD1PxMZ/3Jyz5k00ZMnhNOwv+DIliEcy//laoWDobAAq+/cz97xefCcHPgjg==
   dependencies:
-    "@azure/msal-common" "15.6.0"
+    "@azure/msal-common" "15.7.0"
     jsonwebtoken "^9.0.0"
     uuid "^8.3.0"
 
@@ -1406,9 +1406,9 @@ ieee754@^1.1.13:
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^7.0.3:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.4.tgz#a12c70d0f2607c5bf508fb65a40c75f037d7a078"
-  integrity sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.5.tgz#4cb5f6cd7d4c7ab0365738c7aea888baa6d7efd9"
+  integrity sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==
 
 indent-string@^4.0.0:
   version "4.0.0"
