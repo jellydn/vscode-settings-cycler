@@ -22,18 +22,18 @@
     tslib "^2.6.2"
 
 "@azure/core-auth@^1.4.0", "@azure/core-auth@^1.8.0", "@azure/core-auth@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@azure/core-auth/-/core-auth-1.9.0.tgz#ac725b03fabe3c892371065ee9e2041bee0fd1ac"
-  integrity sha512-FPwHpZywuyasDSLMqJ6fhbOK3TqUdviZNF8OqRGA4W5Ewib2lEEZ+pBsYcBa88B2NGO/SEnYPGhyBqNlE8ilSw==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@azure/core-auth/-/core-auth-1.10.0.tgz#68dba7036080e1d9d5699c4e48214ab796fa73ad"
+  integrity sha512-88Djs5vBvGbHQHf5ZZcaoNHo6Y8BKZkt3cw2iuJIQzLEgH4Ox6Tm4hjFhbqOxyYsgIG/eJbFEHpxRIfEEWv5Ow==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     "@azure/core-util" "^1.11.0"
     tslib "^2.6.2"
 
 "@azure/core-client@^1.9.2":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@azure/core-client/-/core-client-1.9.4.tgz#bb9bb85edc780fc65630b6d8ffa172c3633ca8fe"
-  integrity sha512-f7IxTD15Qdux30s2qFARH+JxgwxWLG2Rlr4oSkPGuLWm+1p5y1+C04XGLA0vmX6EtqfutmjvpNmAfgwVIS5hpw==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@azure/core-client/-/core-client-1.10.0.tgz#9f4ec9c89a63516927840ae620c60e811a0b54a3"
+  integrity sha512-O4aP3CLFNodg8eTHXECaH3B3CjicfzkxVtnrfLkOq0XNP7TIECGfHpK/C6vADZkWP75wzmdBnsIA8ksuJMk18g==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     "@azure/core-auth" "^1.4.0"
@@ -44,32 +44,32 @@
     tslib "^2.6.2"
 
 "@azure/core-rest-pipeline@^1.17.0", "@azure/core-rest-pipeline@^1.20.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@azure/core-rest-pipeline/-/core-rest-pipeline-1.21.0.tgz#65a3600da9f3b635e59aadc0a75212b7815bc7b5"
-  integrity sha512-a4MBwe/5WKbq9MIxikzgxLBbruC5qlkFYlBdI7Ev50Y7ib5Vo/Jvt5jnJo7NaWeJ908LCHL0S1Us4UMf1VoTfg==
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@azure/core-rest-pipeline/-/core-rest-pipeline-1.22.0.tgz#76e44a75093a2f477fc54b84f46049dc2ce65800"
+  integrity sha512-OKHmb3/Kpm06HypvB3g6Q3zJuvyXcpxDpCS1PnU8OV6AJgSFaee/covXBcPbWc6XDDxtEPlbi3EMQ6nUiPaQtw==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     "@azure/core-auth" "^1.8.0"
     "@azure/core-tracing" "^1.0.1"
     "@azure/core-util" "^1.11.0"
     "@azure/logger" "^1.0.0"
-    "@typespec/ts-http-runtime" "^0.2.3"
+    "@typespec/ts-http-runtime" "^0.3.0"
     tslib "^2.6.2"
 
 "@azure/core-tracing@^1.0.0", "@azure/core-tracing@^1.0.1":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@azure/core-tracing/-/core-tracing-1.2.0.tgz#7be5d53c3522d639cf19042cbcdb19f71bc35ab2"
-  integrity sha512-UKTiEJPkWcESPYJz3X5uKRYyOcJD+4nYph+KpfdPRnQJVrZfk0KJgdnaAWKfhsBBtAf/D58Az4AvCJEmWgIBAg==
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@azure/core-tracing/-/core-tracing-1.3.0.tgz#341153f5b2927539eb898577651ee48ce98dda25"
+  integrity sha512-+XvmZLLWPe67WXNZo9Oc9CrPj/Tm8QnHR92fFAFdnbzwNdCH1h+7UdpaQgRSBsMY+oW1kHXNUZQLdZ1gHX3ROw==
   dependencies:
     tslib "^2.6.2"
 
 "@azure/core-util@^1.11.0", "@azure/core-util@^1.6.1":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@azure/core-util/-/core-util-1.12.0.tgz#0b8c2837e6d67c3fbaeae20df34cf07f66b3480d"
-  integrity sha512-13IyjTQgABPARvG90+N2dXpC+hwp466XCdQXPCRlbWHgd3SJd5Q1VvaBGv6k1BIa4MQm6hAF1UBU1m8QUxV8sQ==
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@azure/core-util/-/core-util-1.13.0.tgz#fc2834fc51e1e2bb74b70c284b40f824d867422a"
+  integrity sha512-o0psW8QWQ58fq3i24Q1K2XfS/jYTxr7O1HRcyUE9bV9NttLU+kYOH82Ixj8DGlMTOWgxm1Sss2QAfKK5UkSPxw==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
-    "@typespec/ts-http-runtime" "^0.2.2"
+    "@typespec/ts-http-runtime" "^0.3.0"
     tslib "^2.6.2"
 
 "@azure/identity@^4.1.0":
@@ -90,31 +90,31 @@
     tslib "^2.2.0"
 
 "@azure/logger@^1.0.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@azure/logger/-/logger-1.2.0.tgz#a79aefcdd57d2a96603fab59c9a66e0d9022a564"
-  integrity sha512-0hKEzLhpw+ZTAfNJyRrn6s+V0nDWzXk9OjBr2TiGIu0OfMr5s2V4FpKLTAK3Ca5r5OKLbf4hkOGDPyiRjie/jA==
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@azure/logger/-/logger-1.3.0.tgz#5501cf85d4f52630602a8cc75df76568c969a827"
+  integrity sha512-fCqPIfOcLE+CGqGPd66c8bZpwAji98tZ4JI9i/mlTNTlsIWslCfpg48s/ypyLxZTump5sypjrKn2/kY7q8oAbA==
   dependencies:
-    "@typespec/ts-http-runtime" "^0.2.2"
+    "@typespec/ts-http-runtime" "^0.3.0"
     tslib "^2.6.2"
 
 "@azure/msal-browser@^4.2.0":
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.14.0.tgz#0f9dd58d7b0f00f0df86de5f0080ad4c6fb15ead"
-  integrity sha512-6VB06LypBS0Cf/dSUwRZse/eGnfAHwDof7GpCfoo3JjnruSN40jFBw+QXZd1ox5OLC6633EdWRRz+TGeHMEspg==
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.15.0.tgz#059d270127550c2502a0d06090abc00c2c7822ef"
+  integrity sha512-+AIGTvpVz+FIx5CsM1y+nW0r/qOb/ChRdM8/Cbp+jKWC0Wdw4ldnwPdYOBi5NaALUQnYITirD9XMZX7LdklEzQ==
   dependencies:
-    "@azure/msal-common" "15.8.0"
+    "@azure/msal-common" "15.8.1"
 
-"@azure/msal-common@15.8.0":
-  version "15.8.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.8.0.tgz#aa5f04aa9f999a8f00b33fcf75b35bdc49d7cf5f"
-  integrity sha512-gYqq9MsWT/KZh8iTG37DkGv+wgfllgImTMB++Z83qn75M5eZ0cMX5kSSXdJqHbFm1qxaYydv+2kiVyA9ksN9pA==
+"@azure/msal-common@15.8.1":
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.8.1.tgz#2710f0ff9e4b1347c84da1c26857213c7530d76c"
+  integrity sha512-ltIlFK5VxeJ5BurE25OsJIfcx1Q3H/IZg2LjV9d4vmH+5t4c1UCyRQ/HgKLgXuCZShs7qfc/TC95GYZfsUsJUQ==
 
 "@azure/msal-node@^3.5.0":
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.6.2.tgz#59c662c3d7647a06f591104b21a4e83cba25685e"
-  integrity sha512-lfZtncCSmKvW31Bh3iUBkeTf+Myt85YsamMkGNZ0ayTO5MirOGBgTa3BgUth0kWFBQuhZIRfi5B95INZ+ppkjw==
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.6.3.tgz#d07cee404d071850a4657e86e07b43c1734f97f8"
+  integrity sha512-95wjsKGyUcAd5tFmQBo5Ug/kOj+hFh/8FsXuxluEvdfbgg6xCimhSP9qnyq6+xIg78/jREkBD1/BSqd7NIDDYQ==
   dependencies:
-    "@azure/msal-common" "15.8.0"
+    "@azure/msal-common" "15.8.1"
     jsonwebtoken "^9.0.0"
     uuid "^8.3.0"
 
@@ -348,10 +348,10 @@
   resolved "https://registry.yarnpkg.com/@types/sarif/-/sarif-2.1.7.tgz#dab4d16ba7568e9846c454a8764f33c5d98e5524"
   integrity sha512-kRz0VEkJqWLf1LLVN4pT1cg1Z9wAuvI6L97V3m2f5B76Tg8d413ddvLBPTEHAZJlnn4XSvu0FkZtViCQGVyrXQ==
 
-"@typespec/ts-http-runtime@^0.2.2", "@typespec/ts-http-runtime@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@typespec/ts-http-runtime/-/ts-http-runtime-0.2.3.tgz#5a5796588ba050b57bda58852697d6173377b647"
-  integrity sha512-oRhjSzcVjX8ExyaF8hC0zzTqxlVuRlgMHL/Bh4w3xB9+wjbm0FpXylVU/lBrn+kgphwYTrOk3tp+AVShGmlYCg==
+"@typespec/ts-http-runtime@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@typespec/ts-http-runtime/-/ts-http-runtime-0.3.0.tgz#f506ff2170e594a257f8e78aa196088f3a46a22d"
+  integrity sha512-sOx1PKSuFwnIl7z4RN0Ls7N9AQawmR9r66eI5rFCzLDIs8HTIYrIpH9QjYWoX0lkgGrkLxXhi4QnK7MizPRrIg==
   dependencies:
     http-proxy-agent "^7.0.0"
     https-proxy-agent "^7.0.0"
@@ -469,9 +469,9 @@ agent-base@6:
     debug "4"
 
 agent-base@^7.1.0, agent-base@^7.1.2:
-  version "7.1.3"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-7.1.3.tgz#29435eb821bc4194633a5b89e5bc4703bafc25a1"
-  integrity sha512-jRR5wdylq8CkOe6hei19GGZnxM6rBGwFl3Bg0YItGDimvjGtAvdZk4Pu6Cl4u4Igsws4a1fd1Vq3ezrhn4KmFw==
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-7.1.4.tgz#e3cd76d4c548ee895d3c3fd8dc1f6c5b9032e7a8"
+  integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
 
 ajv@^8.0.1, ajv@^8.17.1:
   version "8.17.1"
