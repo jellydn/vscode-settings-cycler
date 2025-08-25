@@ -98,23 +98,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^4.2.0":
-  version "4.20.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.20.0.tgz#8b556599d5123477ae8c801843a68bc0c527c932"
-  integrity sha512-JBGaxnYAvzFsT5TU6XhVpqc4XVMFjzsi6rrAVINX0PL3+wzs+k12fnvN/XFICvzCfV28NvHzxGfRRBoqE6GxNg==
+  version "4.21.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.21.0.tgz#6b4911f0a246f4662c333a649a67d1fd56f52754"
+  integrity sha512-vgzhz1F3DIB8qcjeJ3DLxMAha4iEaV2BDd1nxPP0ovTjIrpFUGlbhI+Z0pnK+GXctf2UmCwujH2L8xd8CdlMvw==
   dependencies:
-    "@azure/msal-common" "15.11.0"
+    "@azure/msal-common" "15.12.0"
 
-"@azure/msal-common@15.11.0":
-  version "15.11.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.11.0.tgz#32f8c5b8a28ae9fa42934e263288bb028647f670"
-  integrity sha512-1IseGNH6XGWe+5xhZlhasTJP6Ob7tnVSlfFUnjdeH4Kik0n1SORTmdB6xxTwbx9Ro8EuO0XaRzpdABWSf15sdg==
+"@azure/msal-common@15.12.0":
+  version "15.12.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.12.0.tgz#5c30a05b4396e2dbbc35d27bd9bb636d44ccb00e"
+  integrity sha512-4ucXbjVw8KJ5QBgnGJUeA07c8iznwlk5ioHIhI4ASXcXgcf2yRFhWzYOyWg/cI49LC9ekpFJeQtO3zjDTbl6TQ==
 
 "@azure/msal-node@^3.5.0":
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.7.1.tgz#5625af2f99cd83bf08d7a7af5fd062939ccf62e7"
-  integrity sha512-ZTopY+BmE/OubqTXEQ5Eq+h6M5NKTchQBtvLj1tgiAf26lk2C+9jJTvtHjcyzE3iWn3wzySJLa4ArcjHJaZMQw==
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.7.2.tgz#6be1ee9da8e96b6cf8b387a6e96dbea3921b8314"
+  integrity sha512-pZ4GdPL9sBqgbdlQOIBDOrcqoFtCHkOVvvDYdhZOGHzpXp/nEwcL0PZt+qCHyy21fnK2GavvnFA4PeNb1ZGpDg==
   dependencies:
-    "@azure/msal-common" "15.11.0"
+    "@azure/msal-common" "15.12.0"
     jsonwebtoken "^9.0.0"
     uuid "^8.3.0"
 
@@ -284,21 +284,21 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@textlint/ast-node-types@15.2.1":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-15.2.1.tgz#b98ce5bdf9e39941caa02e4cfcee459656c82b21"
-  integrity sha512-20fEcLPsXg81yWpApv4FQxrZmlFF/Ta7/kz1HGIL+pJo5cSTmkc+eCki3GpOPZIoZk0tbJU8hrlwUb91F+3SNQ==
+"@textlint/ast-node-types@15.2.2":
+  version "15.2.2"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-15.2.2.tgz#450632e54d08fc6776a620671a0ae29bb6cec08b"
+  integrity sha512-9ByYNzWV8tpz6BFaRzeRzIov8dkbSZu9q7IWqEIfmRuLWb2qbI/5gTvKcoWT1HYs4XM7IZ8TKSXcuPvMb6eorA==
 
 "@textlint/linter-formatter@^15.2.0":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@textlint/linter-formatter/-/linter-formatter-15.2.1.tgz#5e9015fe55daf1cb55c28ae1e81b3aea5e5cebd1"
-  integrity sha512-oollG/BHa07+mMt372amxHohteASC+Zxgollc1sZgiyxo4S6EuureV3a4QIQB0NecA+Ak3d0cl0WI/8nou38jw==
+  version "15.2.2"
+  resolved "https://registry.yarnpkg.com/@textlint/linter-formatter/-/linter-formatter-15.2.2.tgz#d09311cdba9b48eef3800dca77ac12c4e653ad3a"
+  integrity sha512-oMVaMJ3exFvXhCj3AqmCbLaeYrTNLqaJnLJMIlmnRM3/kZdxvku4OYdaDzgtlI194cVxamOY5AbHBBVnY79kEg==
   dependencies:
     "@azu/format-text" "^1.0.2"
     "@azu/style-format" "^1.0.1"
-    "@textlint/module-interop" "15.2.1"
-    "@textlint/resolver" "15.2.1"
-    "@textlint/types" "15.2.1"
+    "@textlint/module-interop" "15.2.2"
+    "@textlint/resolver" "15.2.2"
+    "@textlint/types" "15.2.2"
     chalk "^4.1.2"
     debug "^4.4.1"
     js-yaml "^3.14.1"
@@ -309,22 +309,22 @@
     table "^6.9.0"
     text-table "^0.2.0"
 
-"@textlint/module-interop@15.2.1", "@textlint/module-interop@^15.2.0":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-15.2.1.tgz#97d05335280cdf680427c6eede2a4be448f24be3"
-  integrity sha512-b/C/ZNrm05n1ypymDknIcpkBle30V2ZgE3JVqQlA9PnQV46Ky510qrZk6s9yfKgA3m1YRnAw04m8xdVtqjq1qg==
+"@textlint/module-interop@15.2.2", "@textlint/module-interop@^15.2.0":
+  version "15.2.2"
+  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-15.2.2.tgz#cffb4162265813a5813d5c807d9faae778638d3f"
+  integrity sha512-2rmNcWrcqhuR84Iio1WRzlc4tEoOMHd6T7urjtKNNefpTt1owrTJ9WuOe60yD3FrTW0J/R0ux5wxUbP/eaeFOA==
 
-"@textlint/resolver@15.2.1":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@textlint/resolver/-/resolver-15.2.1.tgz#401527b287ffb921a7b03bb51d0319200ec8f580"
-  integrity sha512-FY3aK4tElEcOJVUsaMj4Zro4jCtKEEwUMIkDL0tcn6ljNcgOF7Em+KskRRk/xowFWayqDtdz5T3u7w/6fjjuJQ==
+"@textlint/resolver@15.2.2":
+  version "15.2.2"
+  resolved "https://registry.yarnpkg.com/@textlint/resolver/-/resolver-15.2.2.tgz#4871c590aa3e633b512efa5978e96e96bf7fb9b8"
+  integrity sha512-4hGWjmHt0y+5NAkoYZ8FvEkj8Mez9TqfbTm3BPjoV32cIfEixl2poTOgapn1rfm73905GSO3P1jiWjmgvii13Q==
 
-"@textlint/types@15.2.1", "@textlint/types@^15.2.0":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-15.2.1.tgz#2f29758df05a092e9ca661c0c65182d195bbb15a"
-  integrity sha512-zyqNhSatK1cwxDUgosEEN43hFh3WCty9Zm2Vm3ogU566IYegifwqN54ey/CiRy/DiO4vMcFHykuQnh2Zwp6LLw==
+"@textlint/types@15.2.2", "@textlint/types@^15.2.0":
+  version "15.2.2"
+  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-15.2.2.tgz#9e47d1021ece2cefe1749131b054e1a332cabcda"
+  integrity sha512-X2BHGAR3yXJsCAjwYEDBIk9qUDWcH4pW61ISfmtejau+tVqKtnbbvEZnMTb6mWgKU1BvTmftd5DmB1XVDUtY3g==
   dependencies:
-    "@textlint/ast-node-types" "15.2.1"
+    "@textlint/ast-node-types" "15.2.2"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -2616,9 +2616,9 @@ undici-types@~6.21.0:
   integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 undici@^7.12.0:
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.14.0.tgz#7e616eeb3900deb1c4dda0e51384303975eec72c"
-  integrity sha512-Vqs8HTzjpQXZeXdpsfChQTlafcMQaaIwnGwLam1wudSSjlJeQ3bw1j+TLPePgrCnCpUXx7Ba5Pdpf5OBih62NQ==
+  version "7.15.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.15.0.tgz#7485007549ad1782b7cab2abfaa1c1aa7b75e106"
+  integrity sha512-7oZJCPvvMvTd0OlqWsIxTuItTpJBpU1tcbVl24FMn3xt3+VSunwUasmfPJRE57oNO1KsZ4PgA1xTdAX4hq8NyQ==
 
 unicorn-magic@^0.1.0:
   version "0.1.0"
