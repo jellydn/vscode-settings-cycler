@@ -98,23 +98,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^4.2.0":
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.26.1.tgz#4be7d91e47c69837e1c8b2a60758804b56949a6d"
-  integrity sha512-GGCIsZXxyNm5QcQZ4maA9q+9UWmM+/87G+ybvPkrE32el1URSa9WYt0t67ks3/P0gspZX9RoEqyLqJ/X/JDnBQ==
+  version "4.26.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-4.26.2.tgz#1d416b7ab6a4094fa098e4da5058dd3d21231783"
+  integrity sha512-F2U1mEAFsYGC5xzo1KuWc/Sy3CRglU9Ql46cDUx8x/Y3KnAIr1QAq96cIKCk/ZfnVxlvprXWRjNKoEpgLJXLhg==
   dependencies:
-    "@azure/msal-common" "15.13.1"
+    "@azure/msal-common" "15.13.2"
 
-"@azure/msal-common@15.13.1":
-  version "15.13.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.13.1.tgz#3ff635e38f24b656539228c14b095d9e36a1e524"
-  integrity sha512-vQYQcG4J43UWgo1lj7LcmdsGUKWYo28RfEvDQAEMmQIMjSFufvb+pS0FJ3KXmrPmnWlt1vHDl3oip6mIDUQ4uA==
+"@azure/msal-common@15.13.2":
+  version "15.13.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-15.13.2.tgz#7986df122bb6cf96ae160bba70758fd5cb666695"
+  integrity sha512-cNwUoCk3FF8VQ7Ln/MdcJVIv3sF73/OT86cRH81ECsydh7F4CNfIo2OAx6Cegtg8Yv75x4506wN4q+Emo6erOA==
 
 "@azure/msal-node@^3.5.0":
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.8.2.tgz#5265f69a3c5c6b466fcb14ea13516b4f72ee9bc2"
-  integrity sha512-dQrex2LiXwlCe9WuBHnCsY+xxLyuMXSd2SDEYJuhqB7cE8u6QafiC1xy8j8eBjGO30AsRi2M6amH0ZKk7vJpjA==
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-3.8.3.tgz#bf9f20d759eb5d1be00e76a32c37f29bfe122cb5"
+  integrity sha512-Ul7A4gwmaHzYWj2Z5xBDly/W8JSC1vnKgJ898zPMZr0oSf1ah0tiL15sytjycU/PMhDZAlkWtEL1+MzNMU6uww==
   dependencies:
-    "@azure/msal-common" "15.13.1"
+    "@azure/msal-common" "15.13.2"
     jsonwebtoken "^9.0.0"
     uuid "^8.3.0"
 
@@ -1113,9 +1113,9 @@ foreground-child@^3.3.1:
     signal-exit "^4.0.1"
 
 form-data@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.4.tgz#784cdcce0669a9d68e94d11ac4eea98088edd2c4"
-  integrity sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.5.tgz#b49e48858045ff4cbf6b03e1805cebcad3679053"
+  integrity sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
@@ -1201,13 +1201,13 @@ glob@7.1.2:
     path-is-absolute "^1.0.0"
 
 glob@^11.0.0:
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-11.0.3.tgz#9d8087e6d72ddb3c4707b1d2778f80ea3eaefcd6"
-  integrity sha512-2Nim7dha1KVkaiF4q6Dj+ngPPMdfvLJEOpZk/jKiUAkqKebpGAWQXAq9z1xu9HKu5lWfqw/FASuccEjyznjPaA==
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-11.1.0.tgz#4f826576e4eb99c7dad383793d2f9f08f67e50a6"
+  integrity sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw==
   dependencies:
     foreground-child "^3.3.1"
     jackspeak "^4.1.1"
-    minimatch "^10.0.3"
+    minimatch "^10.1.1"
     minipass "^7.1.2"
     package-json-from-dist "^1.0.0"
     path-scurry "^2.0.0"
@@ -1819,7 +1819,7 @@ minimatch@3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^10.0.3:
+minimatch@^10.1.1:
   version "10.1.1"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.1.1.tgz#e6e61b9b0c1dcab116b5a7d1458e8b6ae9e73a55"
   integrity sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==
@@ -1910,9 +1910,9 @@ node-addon-api@^4.3.0:
   integrity sha512-73sE9+3UaLYYFmDsFZnqCInzPyh3MqIwZO9cw58yIqAZhONrrabrYyYe3TuIqtIiOuTXVhsGau8hcrhhwSsDIQ==
 
 node-sarif-builder@^3.2.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/node-sarif-builder/-/node-sarif-builder-3.3.0.tgz#af5e300a46cc01f3e0f6c0223e08f3a8d511e78b"
-  integrity sha512-8taRy2nQs1xNs8iO2F0XbkZJEliiijpKgFVcyiwKjJ2+3X59LVI3wY84qRdJwRDpIo5GK8wvb1pxcJ+JVu3jrg==
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/node-sarif-builder/-/node-sarif-builder-3.3.1.tgz#a3260e8d50bfefc8b549ae8dd93ec0a9ba007a3a"
+  integrity sha512-8z5dAbhpxmk/WRQHXlv4V0h+9Y4Ugk+w08lyhV/7E/CQX9yDdBc3025/EG+RSMJU2aPFh/IQ7XDV7Ti5TLt/TA==
   dependencies:
     "@types/sarif" "^2.1.7"
     fs-extra "^11.1.1"
