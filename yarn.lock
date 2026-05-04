@@ -98,25 +98,24 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.8.0.tgz#f8fd82bcc2a29f3f481ee81077b225189d976285"
-  integrity sha512-X7IZV77bN56l7sbLjkcbQJX1t3U4tgxqztDr/XFbUcUfKk+z2FavcLgKP+OYUNj0wl/pEEtV9lldW9siY8BuHQ==
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.9.0.tgz#22b0853e70f26e63862ad7ef686ffa4b4eebe4a3"
+  integrity sha512-CzE+4PefDSJWj26zU7G1bKchlGRRHMBFreG4tAlGuzyI8hAPiYGobaJvZBgZBf6L63iphX7VH+ityL8VgEQz9Q==
   dependencies:
-    "@azure/msal-common" "16.5.1"
+    "@azure/msal-common" "16.5.2"
 
-"@azure/msal-common@16.5.1":
-  version "16.5.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.5.1.tgz#31bc94d094876384c02dbfe75f098831f2ad378a"
-  integrity sha512-WS9w9SfI8SEYO7mTnxGeZ3UwQfhAVYCWglYF2/7GNx3ioHiAs2gPkl9eSwVs8cPrmiGh+zi9ai/OOKoq4cyzDw==
+"@azure/msal-common@16.5.2":
+  version "16.5.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.5.2.tgz#e3ec9f2b3e0283fbbb5cd6af21b1facd752f6c5a"
+  integrity sha512-GkDEL6TYo3HgT3UuqakdgE9PZfc1hMki6+Hwgy1uddb/EauvAKfu85vVhuofRSo22D1xTnWt8Ucwfg4vSCVwvA==
 
 "@azure/msal-node@^5.1.0":
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-5.1.4.tgz#53be0d6a3355112f2d6c9fa865260344b84ad5ef"
-  integrity sha512-G4LXGGggok1QC48uKu64/SV2DPRDlddmV8EieK8pflsNYMj9/Zz+Y9OHoEBhT15h+zpdwXXLYA/7PJCR/yZ8aw==
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-5.1.5.tgz#96f8c58018571ce50adc10bcdf1fc18190a8b00e"
+  integrity sha512-ObTeMoNPmq19X3z40et9Xvs4ZoWVeJg43PZMRLG5iwVL+2nCtAerG3YTDItqPp1CfXNwmCXBbg8jn1DOx65c3g==
   dependencies:
-    "@azure/msal-common" "16.5.1"
+    "@azure/msal-common" "16.5.2"
     jsonwebtoken "^9.0.0"
-    uuid "^8.3.0"
 
 "@babel/code-frame@^7.26.2":
   version "7.29.0"
@@ -1854,9 +1853,9 @@ napi-build-utils@^2.0.0:
   integrity sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==
 
 node-abi@^3.3.0:
-  version "3.89.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.89.0.tgz#eea98bf89d4534743bbbf2defa9f4f9bd3bdccfd"
-  integrity sha512-6u9UwL0HlAl21+agMN3YAMXcKByMqwGx+pq+P76vii5f7hTPtKDp08/H9py6DY+cfDw7kQNTGEj/rly3IgbNQA==
+  version "3.90.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.90.0.tgz#5aca953aa58deb903738adf14a33fb79a32c48f3"
+  integrity sha512-pZNQT7UnYlMwMBy5N1lV5X/YLTbZM5ncytN3xL7CHEzhDN8uVe0u55yaPUJICIJjaCW8NrM5BFdqr7HLweStNA==
   dependencies:
     semver "^7.3.5"
 
@@ -2570,11 +2569,6 @@ util-deprecate@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
-
-uuid@^8.3.0:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
-  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 validate-npm-package-license@^3.0.4:
   version "3.0.4"
