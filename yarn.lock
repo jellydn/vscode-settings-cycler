@@ -98,23 +98,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.10.0.tgz#93d67824dd3d0b778a3644fe42111ac68a28c6fa"
-  integrity sha512-2Y4TlG5mCfxviHutfW50i8Xd8xhGKTgieL02vMYOE5ZbZrVM+drKSGD//tweRAmlmqqp+F9vrKoHWri/buzxWQ==
+  version "5.10.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.10.1.tgz#193669e7a0308fefd9c99c4f99ec042bc5eb169a"
+  integrity sha512-hTbvOi9Ko2Jvn+G/fSmjzHf9WbNcf/o3epMtbeGx/pMwMrVAbi6OgCJVeCfsAb8IybSRpaCSc4EDRlYAhgngUQ==
   dependencies:
-    "@azure/msal-common" "16.6.0"
+    "@azure/msal-common" "16.6.1"
 
-"@azure/msal-common@16.6.0":
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.6.0.tgz#0e883a5b6a18cf00da7c96122c6535f30c8fb4e5"
-  integrity sha512-FemGljX0csPlBMUE5GUan7BfRn1emeMRUhHSARhqzLN6LA9nt+MgzmAQ1xVqdLm+6plVoxsq9mS5eoyKtpPSgA==
+"@azure/msal-common@16.6.1":
+  version "16.6.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.6.1.tgz#6e0a8d601e3aca60f6fd34a037eb29c10225c597"
+  integrity sha512-VxKdEtUwDuLD0F1hOQP7kye0YadZxFJfv37Em440geEf/w9uggKnHpRrqwZJOdxmPUOdhZ9kyRtKuAJW8wUcRg==
 
 "@azure/msal-node@^5.1.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-5.2.0.tgz#df484ea1c24e71b068aef2e5e9f6bcc0a00e0e44"
-  integrity sha512-b/ak8XAqpnGk1N1nsyTVV0Remp48BP3QrGQZ1uCMcvg2S8X1eSXzhHQZEae2oX276Q4KFAqCUswanDtcvIKLrw==
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-5.2.1.tgz#1f7cc578f30167d24d0812a71c934c8a0438d2d8"
+  integrity sha512-tmQiQ2HvtzaeLqYGy3BemiPOSGPY4wCy1IW5zDWITKSs/s35WEd7Zij/hCxvUdAOzj6U3qnyaGbYXY91ortFEQ==
   dependencies:
-    "@azure/msal-common" "16.6.0"
+    "@azure/msal-common" "16.6.1"
     jsonwebtoken "^9.0.0"
 
 "@babel/code-frame@^7.26.2":
@@ -264,21 +264,21 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@textlint/ast-node-types@15.6.0":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-15.6.0.tgz#6a60c1119f97fec1189671c5b8a07315a093ec57"
-  integrity sha512-CxZHFbYAU7J0A4izz31wV2ZZfySR6aVj2OSR6/3tppZm7VV6hM7nA7sutsLwIiBL/v4lsB1RM79l4Dc/VrH4qw==
+"@textlint/ast-node-types@15.7.0":
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-15.7.0.tgz#23fe5b4ef31025a70dbb6a82f2212d2f3bf58b9d"
+  integrity sha512-wZILFXsRf2gGK9k0Fr69GUdfuZV9CrtByga8Qkw0CLyKBBfZXdNQlJF2XdZ2Ju9ggrTbAWehGo0RjCsAHSBWtA==
 
 "@textlint/linter-formatter@^15.2.0":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@textlint/linter-formatter/-/linter-formatter-15.6.0.tgz#d5c8d31d6e71b699b4fff84bd6b933cfc70ef0de"
-  integrity sha512-IwHRhjwxs0a5t1eNAoKAdV224CDca38LyopPofXpwO/d0J75wBvzf/cBHXNl4TMsLKhYGtR83UprcLEKj/gZsA==
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@textlint/linter-formatter/-/linter-formatter-15.7.0.tgz#21a4d9d93f152bd051756334aadb42627536ea1f"
+  integrity sha512-wrpDID1bfBt5XIUXtgw8NmGIuRFansWAtX1FLHv/zLRt3sgxCFnyon88SbhPOPITEgIlfFcsESElCSLzWySubQ==
   dependencies:
     "@azu/format-text" "^1.0.2"
     "@azu/style-format" "^1.0.1"
-    "@textlint/module-interop" "15.6.0"
-    "@textlint/resolver" "15.6.0"
-    "@textlint/types" "15.6.0"
+    "@textlint/module-interop" "15.7.0"
+    "@textlint/resolver" "15.7.0"
+    "@textlint/types" "15.7.0"
     chalk "^4.1.2"
     debug "^4.4.3"
     js-yaml "^4.1.1"
@@ -289,22 +289,22 @@
     table "^6.9.0"
     text-table "^0.2.0"
 
-"@textlint/module-interop@15.6.0", "@textlint/module-interop@^15.2.0":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-15.6.0.tgz#159cfc9ce7515dc363c73e23d4291bd83c41190c"
-  integrity sha512-MHY6pJx9i5kOlrvUSK51887tYZjHAV2qnr6unBm7LtBLGDFo93utdYqHyWep8r9QLsilQdeijWtufJI46z4v4w==
+"@textlint/module-interop@15.7.0", "@textlint/module-interop@^15.2.0":
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-15.7.0.tgz#442b27785940b1ccb3013720b1fd840a99713882"
+  integrity sha512-+VdoeGFH66OasijhoO7D3OSrqTfJNAIH2OoQHEc5StlO0dqDO2JfZStCbuBPP/ZbpJvuYdoERBP+nKqTAT24vA==
 
-"@textlint/resolver@15.6.0":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@textlint/resolver/-/resolver-15.6.0.tgz#d3cb3bd01b18c088c8bff37e257914319529f1c3"
-  integrity sha512-T1l2Gd3455pwtm0cTewhX/LLy3bL9z6/Fu/am+jj+jjGfXVoknYkjfkZEKrjHlA7xzay0EfUKnu//teYemLeZw==
+"@textlint/resolver@15.7.0":
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@textlint/resolver/-/resolver-15.7.0.tgz#6dd692a3865a688168ca019f933da97dce7d982a"
+  integrity sha512-f94t/8ZR97uhOu2KvBujMGGtfdoJQZLjDNN7+7PNLaTjCtGn+XrqKjSP9lzXgBhUbKSygRN8AlrCMx9S70FHKw==
 
-"@textlint/types@15.6.0", "@textlint/types@^15.2.0":
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-15.6.0.tgz#c888afbc0b0c4836571c4e446b94e2343d12ecd9"
-  integrity sha512-CvgYb1PiqF4BGyoZebGWzAJCZ4ChJAZ9gtWjpQIMKE4Xe2KlSwDA8m8MsiZIV321f5Ibx38BMjC1Z/2ZYP2GQg==
+"@textlint/types@15.7.0", "@textlint/types@^15.2.0":
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-15.7.0.tgz#c9673d8862acc921dbcfdd95b3e159673dc20853"
+  integrity sha512-soItNoFZ8Ua4WCgWwOaTEEyTkX7bjArwVxhN1F2UySeqPsP8QeRiKNUjAIfWQFHddTY6UYR1sHaEh+O0sQPv0Q==
   dependencies:
-    "@textlint/ast-node-types" "15.6.0"
+    "@textlint/ast-node-types" "15.7.0"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -2068,9 +2068,9 @@ punycode.js@^2.3.1:
   integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
 qs@^6.9.1:
-  version "6.15.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.15.1.tgz#bdb55aed06bfac257a90c44a446a73fba5575c8f"
-  integrity sha512-6YHEFRL9mfgcAvql/XhwTvf5jKcOiiupt2FiJxHkiX1z4j7WL8J/jRHYLluORvc1XxB5rV20KoeK00gVJamspg==
+  version "6.15.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.15.2.tgz#fd55426d710403ddccc45e0f9eab16db7727ece9"
+  integrity sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==
   dependencies:
     side-channel "^1.1.0"
 
