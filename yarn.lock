@@ -98,23 +98,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.13.0.tgz#754b0a26e0a50d9df7bafda927a7200f5da212e3"
-  integrity sha512-Ea23x0U8XNFY+qJ9T44zO2BbY+AHdb+WdjmYnx36OhJ/KO+PGU5pmsNHf1DCElYX+6wyVRJz1HFeCPC/cHbRug==
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.14.0.tgz#3c68c22b239f6c40fab08f433221f1b587abd8a5"
+  integrity sha512-Dfl7hPZe9/JJwRhFFXHq2z1oHYBuGubmff3kWXOsd1AGgyXlqjNYAWuN/1JL/ZrcZBs8TKMjGSil6Rcc7E8VPQ==
   dependencies:
-    "@azure/msal-common" "16.8.0"
+    "@azure/msal-common" "16.9.0"
 
-"@azure/msal-common@16.8.0":
-  version "16.8.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.8.0.tgz#8f077b2439d5dc8013ac2267cd09a99c4b2e442a"
-  integrity sha512-5S4RHOcInL2Nu2U217tDZbWGI6StMfcWCrA7TWvWdJmXQ+cYrrIqr84AsN62fGh2MDBysiBJPt6CfWceJfloEA==
+"@azure/msal-common@16.9.0":
+  version "16.9.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.9.0.tgz#0222b099615ebc70bc61892ee1232341c086fcc6"
+  integrity sha512-1MWGjqgUCRAYgLmVFZKp7fs3Rg1TFvIMgywY8ze2olNVvLlJoRThuoziWSDJuwwyJI5L4rnLb9Tyt5D9GvSLPw==
 
 "@azure/msal-node@^5.1.0":
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-5.2.4.tgz#1748c8dc07dfd35d8c54ad70a22c732793d331cc"
-  integrity sha512-rpBUg9dA8UpC2WiFt3KeDKVQmmmVrfxdRnW+F1ebgou/jX/0tAvYuonaq5RUo8OaqzOrj4x/HaI8DmY56RXZ2Q==
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-5.2.5.tgz#d8c37a1cb1d05954b285f63d160d290d90b63b6d"
+  integrity sha512-RUuewWk9JvWJS5Yiy8/74Lm1rQAWlrU/qg/Bgtk1jIauVRtnb9XKwS5Xg0J+Whwjesq9EVrBIFgQEP8vHxgezA==
   dependencies:
-    "@azure/msal-common" "16.8.0"
+    "@azure/msal-common" "16.9.0"
     jsonwebtoken "^9.0.0"
 
 "@babel/code-frame@^7.26.2":
@@ -2156,9 +2156,9 @@ semver@^5.1.0, semver@^5.4.1:
   integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
 
 semver@^7.3.5, semver@^7.5.2, semver@^7.5.4:
-  version "7.8.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.4.tgz#c73eceebae0616934be8dff28a7fd70757c8e696"
-  integrity sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==
+  version "7.8.5"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
+  integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
 
 set-function-length@^1.2.2:
   version "1.2.2"
@@ -2477,9 +2477,9 @@ undici-types@~7.18.0:
   integrity sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==
 
 undici@^7.19.0:
-  version "7.27.2"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.27.2.tgz#f8fae968ee68377cfc61713d9cd152773716804f"
-  integrity sha512-uZsKNuzQxDMUY6M3pIMvy5tvlGmtq8XJ2oLAkfRKGNu+1VQAIvLy2xIVG5ATZl5wDXl/tddByAWCizRbOme+TA==
+  version "7.28.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.28.0.tgz#97d64564198b285bc281f0e8e29597e3d11fe7ec"
+  integrity sha512-cRZYrTDwWznlnRiPjggAGxZXanty6M8RV1ff8Wm4LWXBp7/IG8v5DnOm74DtUBp9OONpK75YlPnIjQqX0dBDtA==
 
 unicorn-magic@^0.1.0:
   version "0.1.0"
