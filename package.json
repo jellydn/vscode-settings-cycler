@@ -81,7 +81,7 @@
   "devDependencies": {
     "@types/node": "24.13.3",
     "@vscode/vsce": "3.9.2",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vscode": "1.1.37"
   },
   "dependencies": {
