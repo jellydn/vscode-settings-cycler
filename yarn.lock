@@ -104,16 +104,21 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.23.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.23.0.tgz#e1ca85dcd727241c97c1306a0a5427ce0bb71801"
-  integrity sha512-IRCwkRCK47hBXK+7bu67UZWY7HS0Jx1dZgi4C1HVbjlBum8Jy8fb2l87xFr6HxdQJWy951zRUHtwwDITHFAtaA==
+  version "5.24.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.24.0.tgz#a262c6156419f8a7cab014c4e4307ff24256e1f7"
+  integrity sha512-jS1stt81tslcVZi7fqVD+g6vr8w/IWqFl/vAB2dx/6EOroQDuCR4+z0o3C+d6a/GpLATvdoO+kwnDcYzsBXKQA==
   dependencies:
-    "@azure/msal-common" "16.14.1"
+    "@azure/msal-common" "16.14.2"
 
 "@azure/msal-common@16.14.1":
   version "16.14.1"
   resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.14.1.tgz#2c987f31da858e544e72b6faa986fecdb3de20f8"
   integrity sha512-Or6xhPNyi4zHW25158yxBoyxuCqNSPa5YBVqfF1J5Ks4MJWBo/USXdp05DQIPu1Zli00YZu6t0+h6KvHJealxQ==
+
+"@azure/msal-common@16.14.2":
+  version "16.14.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.14.2.tgz#742eb4603448ba5700d3582423cc5781c96ca971"
+  integrity sha512-HOBR0Gfo39TMrkxNG8k6cfjRkrRjXZc3JQs3ebMWQc9S4cihuknMYra3sgmzbZB752oQBqBN9+WF7c826p2vIQ==
 
 "@azure/msal-node@^6.0.0":
   version "6.0.1"
@@ -1426,9 +1431,9 @@ ieee754@^1.1.13:
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^7.0.3:
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.10.tgz#c578b9e3624f77e2298876f6516c9ed976c84fdd"
-  integrity sha512-HpbUakT7xp5miBUywCHf36ZEuAJNklBJDDsGpUIjMzOSmM8ELSfA9Sa/QDPeNeqeoN31u+UTCkL4klCOVvRm4Q==
+  version "7.0.12"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.12.tgz#36048ce2e8d8e0f97fd87863a1cb595ea0a5c69f"
+  integrity sha512-/8UvqAPU9DGTI9k4mxtf49U37Isfwr8Uts96+SBHIkFxPJnHS0Ew4f00sM4Scd8V8EjM0jUNtVDdv1kPdt35lg==
 
 index-to-position@^1.1.0:
   version "1.2.0"
@@ -1921,9 +1926,9 @@ napi-build-utils@^2.0.0:
   integrity sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==
 
 node-abi@^3.3.0:
-  version "3.96.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.96.0.tgz#8b038bc6cca97d6cec2e9aafdb81b900da1ff80d"
-  integrity sha512-rebQ/lz7i0EkoLzUVSrKRzA69zMkwLp95kKMWoMDkkM00Suxz0D7zEQPwRml5fQum24mj7bPvmlgLAmu2JCiYg==
+  version "3.97.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.97.0.tgz#6baca1e84394db3103d27b68c0fb03300c401731"
+  integrity sha512-6Pu8F0eXGZlyz0EepPJrWgWDcBI8rKt2Wj8exOJU1tjVbu/VyZy5ZaLYS5N+Jp/Y3IP3sIRKcIOElTu7uC6KKA==
   dependencies:
     semver "^7.3.5"
 
