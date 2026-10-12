@@ -104,9 +104,9 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.24.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.24.0.tgz#a262c6156419f8a7cab014c4e4307ff24256e1f7"
-  integrity sha512-jS1stt81tslcVZi7fqVD+g6vr8w/IWqFl/vAB2dx/6EOroQDuCR4+z0o3C+d6a/GpLATvdoO+kwnDcYzsBXKQA==
+  version "5.25.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.25.0.tgz#269a4796dc29bfe726c94f13dd608b0aca518032"
+  integrity sha512-7GyXzDUrdLG5zPDCYJbQdJqbl9a2U9SWUSC4lxr7cXjkBq6diTfWcJsi0UjdGWlqy+EevQg9dSC4g3s3BEp19g==
   dependencies:
     "@azure/msal-common" "16.14.2"
 
@@ -1926,9 +1926,9 @@ napi-build-utils@^2.0.0:
   integrity sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==
 
 node-abi@^3.3.0:
-  version "3.97.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.97.0.tgz#6baca1e84394db3103d27b68c0fb03300c401731"
-  integrity sha512-6Pu8F0eXGZlyz0EepPJrWgWDcBI8rKt2Wj8exOJU1tjVbu/VyZy5ZaLYS5N+Jp/Y3IP3sIRKcIOElTu7uC6KKA==
+  version "3.98.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.98.0.tgz#3c7fe98381cf35f9da27431c9435044d9ebff143"
+  integrity sha512-Llh8noNw7s15m+rmIrZnZQbe4gLyasL9loT74rC92PkmwWKeEedKvc7o6pjp8B3MhrYT/Cl846NOYZbz1wmddw==
   dependencies:
     semver "^7.3.5"
 
@@ -2009,9 +2009,9 @@ open@^10.1.0:
     wsl-utils "^0.1.0"
 
 p-map@^7.0.3:
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.8.tgz#e2ce27eff78cd934a78908a3cede58330a3a5543"
-  integrity sha512-MitaVsCuCFIvOLLPIU7NnfrZvS9H9h7kwMUkDo+T2pEISaJD48IV9S8iIdXB7PsvvdxyYcsSTTrr90XKsbulNw==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.1.1.tgz#df42589224b93b798eb4d16dbf965bb15a522d34"
+  integrity sha512-6Lh3jQPLthYujSrlw6ccWXBGZTkoTCz27Hd92g79LH/kjAbgoEu0t442cCCNbegPSJsA0lwDX8z0bcKtkpA32g==
 
 parse-json@^8.0.0:
   version "8.3.0"
