@@ -31,9 +31,9 @@
     tslib "^2.6.2"
 
 "@azure/core-client@^1.9.2":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@azure/core-client/-/core-client-1.11.1.tgz#d990878a88577507ab1131935b4734b29a637d58"
-  integrity sha512-2QygG2F76ZpMP2eMztiJvAiFMu71M9rDeU7vO/QKg5Css7MgM4frUOslFjhVjRhbGaCNPtz/S8M6y46/fFKVuQ==
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/@azure/core-client/-/core-client-1.11.2.tgz#9c16ec6614dcb6bf83ee0ab9bfbb513ba2fa9d6f"
+  integrity sha512-ajuIU1aMoTs/ERYrKnIqQrV5Vz3RL8mwDC5RdedIXUvR7pi6cWzeYmt0LfNz6+W91CuCO4WJG0zA6+PhU1X+hw==
   dependencies:
     "@azure/abort-controller" "^2.1.2"
     "@azure/core-auth" "^1.10.0"
@@ -49,16 +49,16 @@
   integrity sha512-/shnJ+ooO8WPxDhPEeI/2oRQuubn16gZ6CvlbpWbEswZfzwI9tI/sMAHmF3x1LuQ9yZYXfLW3TjzGMLEC5blKg==
 
 "@azure/core-rest-pipeline@^1.17.0", "@azure/core-rest-pipeline@^1.22.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@azure/core-rest-pipeline/-/core-rest-pipeline-1.25.0.tgz#92ea4912edbb1f7395f4829a300631174aa82f08"
-  integrity sha512-bMs8ekJLjX8wPV+9IPBges1SLPyuDtE9g5gLDWOpxzKcoOFQnpLGkbcT1tdw3FaAmDS1gnPmMmJ6y/T5B96kIA==
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/@azure/core-rest-pipeline/-/core-rest-pipeline-1.25.1.tgz#344522466c9afe45b2b2b9737654b4aaaf48109f"
+  integrity sha512-fTIA3CAm/cdODqiXkO6jYOIkU2Ylld7vq65KGc70gTwl12sLQsC8v7I5t6tp2N2CfUONzZBXyeFw7KEu6Ks2zg==
   dependencies:
     "@azure/abort-controller" "^2.1.2"
     "@azure/core-auth" "^1.10.0"
     "@azure/core-tracing" "^1.3.0"
     "@azure/core-util" "^1.13.0"
     "@azure/logger" "^1.3.0"
-    "@typespec/ts-http-runtime" "^0.3.4"
+    "@typespec/ts-http-runtime" "^0.3.10"
     tslib "^2.6.2"
 
 "@azure/core-tracing@^1.0.0", "@azure/core-tracing@^1.3.0":
@@ -104,23 +104,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.27.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.27.0.tgz#796beccdc77e4fc1f073fa63977052cbfc582dd9"
-  integrity sha512-i2CKKyuCuOZEBZJiAoFK/viYZAP6CRaqqlkeHl3ViteDHOUE/tkI/Slq1cdGnwhkIB+k1OE0g00QGl9O0gAFNQ==
+  version "5.29.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.29.0.tgz#f93ac1388fbafdde1ddc0abba915c6bddffa27a4"
+  integrity sha512-Ko/Ovw6h+Gu33mp8f0FUyddr/KDWzbGzcgR8HKZaT4wgTYljLPKJP1rcDu0RHj7pkd4CR2hCHK51XFzgvq/Q5Q==
   dependencies:
-    "@azure/msal-common" "16.15.0"
+    "@azure/msal-common" "16.16.1"
 
-"@azure/msal-common@16.15.0":
-  version "16.15.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.15.0.tgz#bb6ac5bfdac9b90cd8aab716718a8139d0f2c658"
-  integrity sha512-lwdLb1B9Q5nEhPLVIKe78XH5wFMN15fCiDkY7ylPDSWZuWcD93G3jpJajrKhO3CQld8SLKz0sHiOi24mxdvtsg==
+"@azure/msal-common@16.16.1":
+  version "16.16.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.16.1.tgz#900884e2a87dc7c7b83576437ebcd0beefe0f6cd"
+  integrity sha512-dSKdL9h/iercb4GumsKFh+wVvLe1ohuDPiviklgnQVHnY2FYNUlbQJ3E1Qd37vkof9CfraK9BQpCW1hoOg0znQ==
 
 "@azure/msal-node@^7.1.0":
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.1.2.tgz#4a3ba74084c0714703dc0256cbb736b951a7193b"
-  integrity sha512-52hKQLGpEQzwNufIXG1SPVU+wQ3RIe7Rp2+g+VdAmZojCAZ6yCdGEffzQEQ6RnBZGBEs40nl14rWBmfJpCoHsg==
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.2.1.tgz#b216bc19fd78a0b25d38f527568b32890829ffb7"
+  integrity sha512-6mntsfCNq7H1eAPSZik74jT3C5at4nRqiVk7OC+D5Hy3Pe3s76uwE4+J0xvDvlVPmoX2kasf3mSwUmzeq9rW/A==
   dependencies:
-    "@azure/msal-common" "16.15.0"
+    "@azure/msal-common" "16.16.1"
     jsonwebtoken "^9.0.0"
 
 "@babel/code-frame@^7.26.2":
@@ -428,13 +428,13 @@
   resolved "https://registry.yarnpkg.com/@typescript/typescript-win32-x64/-/typescript-win32-x64-7.0.2.tgz#cf3b7b0d6ce5635daca4c8e01c189cdcde47ec3c"
   integrity sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==
 
-"@typespec/ts-http-runtime@^0.3.0", "@typespec/ts-http-runtime@^0.3.4":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@typespec/ts-http-runtime/-/ts-http-runtime-0.3.9.tgz#332855bbd729ab36e0779b2dfc24edc920d12461"
-  integrity sha512-edSdeAqkdxBVzA1yL1LrLCml1YjyCVvPMtMqJpbF+6K609tHe8V6sQUzFQSGcYNhcuhOceZtjvN32+mpIth30A==
+"@typespec/ts-http-runtime@^0.3.0", "@typespec/ts-http-runtime@^0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@typespec/ts-http-runtime/-/ts-http-runtime-0.3.10.tgz#3d84e077ec478da625aab80db618f288b6a082a0"
+  integrity sha512-vddvvtZ7sejSlCv+OIkn2ztjB1O31Fc2JsxI/YK725r3elXXlF/J3o3lbXJFRhoeWRWK1tjdZ+GTi6Fdtrp+EA==
   dependencies:
-    http-proxy-agent "^7.0.0"
-    https-proxy-agent "^7.0.0"
+    http-proxy-agent "^9.1.0"
+    https-proxy-agent "^9.1.0"
     tslib "^2.6.2"
 
 "@vscode/vsce-sign-alpine-arm64@2.0.6":
@@ -548,10 +548,10 @@ agent-base@6:
   dependencies:
     debug "4"
 
-agent-base@^7.1.0, agent-base@^7.1.2:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-7.1.4.tgz#e3cd76d4c548ee895d3c3fd8dc1f6c5b9032e7a8"
-  integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
+agent-base@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-9.0.0.tgz#ec9efb08314e1e75b0852d74aabf9a387f99834e"
+  integrity sha512-TQf59BsZnytt8GdJKLPfUZ54g/iaUL2OWDSFCCvMOhsHduDQxO8xC4PNeyIkVcA5KwL2phPSv0douC0fgWzmnA==
 
 ajv@^8.0.1, ajv@^8.17.1:
   version "8.20.0"
@@ -576,9 +576,9 @@ ansi-regex@^5.0.1:
   integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
 
 ansi-regex@^6.2.2:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.5.0.tgz#83f070e17628d0031eb33eb2315a72d8bb11d2a0"
-  integrity sha512-zhvbbbdt1kbw7EJ9OQoxmQcuaNR9P5kTj7e/YdmOSU10aHWbycofJxA6jKfoEy3vlLdctOF9ZHaxLtmSm998wQ==
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.6.0.tgz#268bc9253164768541ca6bebee112c83be2c67f2"
+  integrity sha512-XZ5apbzreCbXSKwPjJstu8R0zOi247w3XYwWxtwBXgpZrCyc1Ka7p9/xY0A9/diMewmHbEKz+FIraWaEWjlN5g==
 
 ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
@@ -1247,9 +1247,9 @@ glob@7.1.2:
     path-is-absolute "^1.0.0"
 
 glob@^13.0.6:
-  version "13.0.6"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.6.tgz#078666566a425147ccacfbd2e332deb66a2be71d"
-  integrity sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==
+  version "13.0.7"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.7.tgz#6cc3139d83abc42119391aad16274b5e1f3b9e56"
+  integrity sha512-wfsFgXQ8A3SEI9XGf7Nl3Y9l7ffSrGh7SUCT7vU/2CzYPep9kjxAn1S40F9OPKxAMGCVl7HtNlJhrCJUeUq83g==
   dependencies:
     minimatch "^10.2.2"
     minipass "^7.1.3"
@@ -1381,13 +1381,14 @@ http-proxy-agent@^4.0.1:
     agent-base "6"
     debug "4"
 
-http-proxy-agent@^7.0.0:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-7.0.2.tgz#9a8b1f246866c028509486585f62b8f2c18c270e"
-  integrity sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==
+http-proxy-agent@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-9.1.0.tgz#fd8b39dcb58ac8046139e5f4ea80de78e8beaf7b"
+  integrity sha512-2NxoveTT58mjYT4n3RPTEfCZGLMbidoO8XEieXfpSYxu+PQJ1qpx4ypwH6N+uF9twBPIvRRgvkvW5HUTYWENig==
   dependencies:
-    agent-base "^7.1.0"
+    agent-base "9.0.0"
     debug "^4.3.4"
+    proxy-agent-negotiate "1.1.0"
 
 https-proxy-agent@^2.2.1:
   version "2.2.4"
@@ -1405,13 +1406,14 @@ https-proxy-agent@^5.0.0:
     agent-base "6"
     debug "4"
 
-https-proxy-agent@^7.0.0:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz#da8dfeac7da130b05c2ba4b59c9b6cd66611a6b9"
-  integrity sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==
+https-proxy-agent@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-9.1.0.tgz#a9f60f79bc1578c37b166dd7f58b6bcb5c57e44b"
+  integrity sha512-ag87y7cJJ9/3+GxFr8Oy4O5faDsGRGnBGsJj/YjOSsSx/5eadKLYTMPlzuR6obgoCDDm0abAAZitXXQkMOPSpA==
   dependencies:
-    agent-base "^7.1.2"
-    debug "4"
+    agent-base "9.0.0"
+    debug "^4.3.4"
+    proxy-agent-negotiate "1.1.0"
 
 iconv-lite@0.6.3, iconv-lite@^0.6.3:
   version "0.6.3"
@@ -1755,11 +1757,6 @@ lodash.once@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
   integrity sha512-Sb487aTOCr9drQVL8pIxOzVhafOjZN9UU54hiN8PU3uAiSV7lx1yYNpbNmex2PK6dSJoNTSJUUswT651yww3Mg==
-
-lodash.truncate@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.truncate/-/lodash.truncate-4.4.2.tgz#5a350da0b1113b837ecfffd5812cbe58d6eae193"
-  integrity sha512-jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==
 
 lodash@^4.18.1:
   version "4.18.1"
@@ -2124,6 +2121,11 @@ prebuild-install@^7.0.1:
     tar-fs "^2.0.0"
     tunnel-agent "^0.6.0"
 
+proxy-agent-negotiate@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/proxy-agent-negotiate/-/proxy-agent-negotiate-1.1.0.tgz#de7d37aede9d71e74346125d6f484fac8092b615"
+  integrity sha512-N8IBcM3UgCVzz2L2Lqv8DVntDnnC8/hiV4nEDUPkqq72TPUgYWjQc+bdZlBPZK9LzPAvOY//gAt0S0DApoOXWQ==
+
 pump@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/pump/-/pump-3.0.4.tgz#1f313430527fa8b905622ebd22fe1444e757ab3c"
@@ -2269,14 +2271,14 @@ secretlint@^10.1.2:
     read-pkg "^9.0.1"
 
 semver@^5.1.0, semver@^5.4.1:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.2.tgz#48d55db737c3287cd4835e17fa13feace1c41ef8"
-  integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
+  version "5.7.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.3.tgz#cfc74be3a9b2c95aa6e62aa0b2fbaa325f3ed329"
+  integrity sha512-kM18BPOqTi0+TB68703/GJRpAML5Me+IDQsR1J26YB3EFKKNEyHIVZuWDX7+WKQB3tHwDwgk24BfhdpWUbytvQ==
 
 semver@^7.3.5, semver@^7.5.2, semver@^7.5.4:
-  version "7.8.5"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
-  integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.6.tgz#67c0cda133a3ceb6f70b803e67625bf969000424"
+  integrity sha512-9lpSSU4Mly3mrtruwLs1eLK6+gzbzqeBFwRNjIjE+9LuDpWdYctrQlQ3ej1Ilgi7gknpsTRnPoLP8DpCHqHIJw==
 
 set-function-length@^1.2.2:
   version "1.2.2"
@@ -2480,12 +2482,11 @@ supports-hyperlinks@^3.2.0:
     supports-color "^7.0.0"
 
 table@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.9.0.tgz#50040afa6264141c7566b3b81d4d82c47a8668f5"
-  integrity sha512-9kY+CygyYM6j02t5YFHbNz2FN5QmYGv9zAjVp4lCDjlCw7amdckXlEt/bjMhUIfj4ThGRE4gCUH5+yGnNuPo5A==
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.10.1.tgz#cae3bd5d21e33393b579ce696105aa145d76bf6c"
+  integrity sha512-f05boz6UD5S70AJiUxqKOnDuE45mBIVagX490oQmcW38+Lq/H1s7CjIpFgJjR/kpV87L4lw/AN+14D2PktQJsQ==
   dependencies:
     ajv "^8.0.1"
-    lodash.truncate "^4.4.2"
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
@@ -2616,9 +2617,9 @@ underscore@^1.12.1:
   integrity sha512-WRNW+sJgj5OBN4/0JpHFqtqzhpbnV0GuB+OozA9gCL7a993SmU+1JBZCzLNxYsbMfIeDL+lTsphD5jN5N+n0zg==
 
 undici@^7.19.0:
-  version "7.30.1"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.30.1.tgz#360b3de104b94abc52729aa1a4a07e027aa71f73"
-  integrity sha512-03KrMbjIFDWQR5RNPrSw3bd1r12JpyFQl9/yxjUbJtqkjmllqC5lFjZh6ujeuJCKr8EOQvRW872Oy/az+nLYxg==
+  version "7.30.2"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.30.2.tgz#26c6acb0ffe838f823511f8cb79a8d530652135e"
+  integrity sha512-mLyPQnHwUxaM/rideoK/+KL8DaAJLRl4aBCfmX444aCSLnIaomqPLtNRe2jdCYcsk5wZzXrDIQC8ZeYNRAYyIA==
 
 unicorn-magic@^0.1.0:
   version "0.1.0"
