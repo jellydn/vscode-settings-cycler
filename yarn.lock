@@ -104,23 +104,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.29.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.29.0.tgz#f93ac1388fbafdde1ddc0abba915c6bddffa27a4"
-  integrity sha512-Ko/Ovw6h+Gu33mp8f0FUyddr/KDWzbGzcgR8HKZaT4wgTYljLPKJP1rcDu0RHj7pkd4CR2hCHK51XFzgvq/Q5Q==
+  version "5.29.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.29.1.tgz#3cbd190d29e25f8473804d8a28aa479ed3dc69cc"
+  integrity sha512-+TMoU/4h3KYUvQKZH+p1/9/iDaepDlVJQ7UMUAB6q8prPsMfsOoqA9m2alpPqLUQ48Bp7sXqN2wdhA9rOg9q1A==
   dependencies:
-    "@azure/msal-common" "16.16.1"
+    "@azure/msal-common" "16.16.2"
 
-"@azure/msal-common@16.16.1":
-  version "16.16.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.16.1.tgz#900884e2a87dc7c7b83576437ebcd0beefe0f6cd"
-  integrity sha512-dSKdL9h/iercb4GumsKFh+wVvLe1ohuDPiviklgnQVHnY2FYNUlbQJ3E1Qd37vkof9CfraK9BQpCW1hoOg0znQ==
+"@azure/msal-common@16.16.2":
+  version "16.16.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.16.2.tgz#e312f397d8f8de54acc993a7e1c29322d825fd2d"
+  integrity sha512-IVoPgAup0hnpzwC8esxPxrrnDDVe0n3mmK+UU3JRmKWySKxBQrl+a30tTP3okmJ9Wc7dh+IgoNaUXkCxb2DBSg==
 
 "@azure/msal-node@^7.1.0":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.2.1.tgz#b216bc19fd78a0b25d38f527568b32890829ffb7"
-  integrity sha512-6mntsfCNq7H1eAPSZik74jT3C5at4nRqiVk7OC+D5Hy3Pe3s76uwE4+J0xvDvlVPmoX2kasf3mSwUmzeq9rW/A==
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.2.2.tgz#84e4e3d5411183a92819f927c7bd2606cea19ee0"
+  integrity sha512-MjsAHC+KUSXYYC8P57lVXy5IgSeO+PraXzLLHZI6hcX7nx/hCokY6gTPm2JcKLI3W88mu7ozjObBVGKExZUhww==
   dependencies:
-    "@azure/msal-common" "16.16.1"
+    "@azure/msal-common" "16.16.2"
     jsonwebtoken "^9.0.0"
 
 "@babel/code-frame@^7.26.2":
@@ -437,65 +437,65 @@
     https-proxy-agent "^9.1.0"
     tslib "^2.6.2"
 
-"@vscode/vsce-sign-alpine-arm64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-alpine-arm64/-/vsce-sign-alpine-arm64-2.0.6.tgz#2cd244caf5e8ec543f42fb91d4df3b933641c8fa"
-  integrity sha512-wKkJBsvKF+f0GfsUuGT0tSW0kZL87QggEiqNqK6/8hvqsXvpx8OsTEc3mnE1kejkh5r+qUyQ7PtF8jZYN0mo8Q==
+"@vscode/vsce-sign-alpine-arm64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-alpine-arm64/-/vsce-sign-alpine-arm64-2.0.8.tgz#64bfb9a13b42aa7618234b38fa8e918c270e9ddb"
+  integrity sha512-3HSEDf4R2zhI3/eckZPWBoeFUiLpnG9O0/NBW8xCM3j+Ri0uhmOPvCDuCYsUmIsFVUJETaMu+JMY2DF8v8hNPg==
 
-"@vscode/vsce-sign-alpine-x64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-alpine-x64/-/vsce-sign-alpine-x64-2.0.6.tgz#b0e80a4792001c66e27feee2c11e821ad1fa1680"
-  integrity sha512-YoAGlmdK39vKi9jA18i4ufBbd95OqGJxRvF3n6ZbCyziwy3O+JgOpIUPxv5tjeO6gQfx29qBivQ8ZZTUF2Ba0w==
+"@vscode/vsce-sign-alpine-x64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-alpine-x64/-/vsce-sign-alpine-x64-2.0.8.tgz#8942337cb2717f4716bb7c63e08ce0d8ab060731"
+  integrity sha512-rHbdV7+esCVn/t8KnbSN9CyMGImAmGnxFb1K9d2uSrt0WNPYfL12FGFekhz2yI8sFhIhyxD+vIKTSp9+kLx+5A==
 
-"@vscode/vsce-sign-darwin-arm64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-darwin-arm64/-/vsce-sign-darwin-arm64-2.0.6.tgz#4b8fa1ab55f280a99985be3c06fb730e57810cce"
-  integrity sha512-5HMHaJRIQuozm/XQIiJiA0W9uhdblwwl2ZNDSSAeXGO9YhB9MH5C4KIHOmvyjUnKy4UCuiP43VKpIxW1VWP4tQ==
+"@vscode/vsce-sign-darwin-arm64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-darwin-arm64/-/vsce-sign-darwin-arm64-2.0.8.tgz#b2619eaf64e8e32ef00a3ff2c489de85f7cef160"
+  integrity sha512-/JSzSLCbXSlc+X7PfmHWnXczFHRmKURCwN1MGmJXjUJlWHgTDpaqjaJNMnBNqruyrbb6LRE/DMXTfRY9iwr4jA==
 
-"@vscode/vsce-sign-darwin-x64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-darwin-x64/-/vsce-sign-darwin-x64-2.0.6.tgz#d2c9186d9505498272cbddd8383bb038ebcf5820"
-  integrity sha512-25GsUbTAiNfHSuRItoQafXOIpxlYj+IXb4/qarrXu7kmbH94jlm5sdWSCKrrREs8+GsXF1b+l3OB7VJy5jsykw==
+"@vscode/vsce-sign-darwin-x64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-darwin-x64/-/vsce-sign-darwin-x64-2.0.8.tgz#7004db234355bbe59a36cad8fa4dd6d4004ce1c2"
+  integrity sha512-iowH17iKIaAiC6TNGIksLmwtcKOHh/HT/pwKHwPZnuTLvdKWZ/8VOT+MphEt71EcWttohqUXx41SjdiCfUPBiA==
 
-"@vscode/vsce-sign-linux-arm64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-linux-arm64/-/vsce-sign-linux-arm64-2.0.6.tgz#b3d8560144040b920d8c6edd4374314b58255481"
-  integrity sha512-cfb1qK7lygtMa4NUl2582nP7aliLYuDEVpAbXJMkDq1qE+olIw/es+C8j1LJwvcRq1I2yWGtSn3EkDp9Dq5FdA==
+"@vscode/vsce-sign-linux-arm64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-linux-arm64/-/vsce-sign-linux-arm64-2.0.8.tgz#1290b2fe2416be2df80ec9f4b0851cf643b92656"
+  integrity sha512-94aBLOVdO6eAOylUsyJ40/BdHtRrHuKAa/29KNOci2QtwUBAH9jTWJLpn1Yv+xjlUOaSjQC8UlAUtjqz/g6FPA==
 
-"@vscode/vsce-sign-linux-arm@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-linux-arm/-/vsce-sign-linux-arm-2.0.6.tgz#0a27c42a4adb37e96eec78cd7bfa388cd4e9fbef"
-  integrity sha512-UndEc2Xlq4HsuMPnwu7420uqceXjs4yb5W8E2/UkaHBB9OWCwMd3/bRe/1eLe3D8kPpxzcaeTyXiK3RdzS/1CA==
+"@vscode/vsce-sign-linux-arm@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-linux-arm/-/vsce-sign-linux-arm-2.0.8.tgz#27575ec3ba0ee4075759521ba914873905f920d5"
+  integrity sha512-SVzcxe2fx+1meLyO745eUiywrRDQIXwK/oZcwTrzYEkoVh4Val4/8CtDHIc5Z3EhHnwVBnqGqsbNwkR44k7rXA==
 
-"@vscode/vsce-sign-linux-x64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-linux-x64/-/vsce-sign-linux-x64-2.0.6.tgz#ade11caeeed524fc16bd6c43ca49aea00295de8c"
-  integrity sha512-/olerl1A4sOqdP+hjvJ1sbQjKN07Y3DVnxO4gnbn/ahtQvFrdhUi0G1VsZXDNjfqmXw57DmPi5ASnj/8PGZhAA==
+"@vscode/vsce-sign-linux-x64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-linux-x64/-/vsce-sign-linux-x64-2.0.8.tgz#d700a378a1e3b191c9858fba1e3f4c5cfe732b66"
+  integrity sha512-i55pKFRMF1nR94CMcFHbr3VQz7rQ8DFURvUd2Jymcbtv8qzhPX2otIHWzkcmAVr4dQApbYYCvRPjbP+i12ImQQ==
 
-"@vscode/vsce-sign-win32-arm64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-win32-arm64/-/vsce-sign-win32-arm64-2.0.6.tgz#0688968148e03eb392479c8491c72506721beffc"
-  integrity sha512-ivM/MiGIY0PJNZBoGtlRBM/xDpwbdlCWomUWuLmIxbi1Cxe/1nooYrEQoaHD8ojVRgzdQEUzMsRbyF5cJJgYOg==
+"@vscode/vsce-sign-win32-arm64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-win32-arm64/-/vsce-sign-win32-arm64-2.0.8.tgz#f0e66e71fb3ff534d3641ac014750973b69089b9"
+  integrity sha512-2CoVlRNow2XkNboxlfx8hGdKLR2hvyBRg1O8gafx8I4F+scm1MLHdGcYV3+u3jXDsJaiSyDshTO5vPcLjQpVug==
 
-"@vscode/vsce-sign-win32-x64@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-win32-x64/-/vsce-sign-win32-x64-2.0.6.tgz#74430eff41d26818c23f9826b045d8c75732eaeb"
-  integrity sha512-mgth9Kvze+u8CruYMmhHw6Zgy3GRX2S+Ed5oSokDEK5vPEwGGKnmuXua9tmFhomeAnhgJnL4DCna3TiNuGrBTQ==
+"@vscode/vsce-sign-win32-x64@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign-win32-x64/-/vsce-sign-win32-x64-2.0.8.tgz#d09043ea631ea6394774b57d2cfac0fbfd14aa1b"
+  integrity sha512-93c+KXIvOsLlNLMEPtQBgJJgn2eaypv3G3+4O9RailUQTh9zL3ul/Fhnqf0O+NKOGKky9d/v+GYWhBwsAjZaww==
 
 "@vscode/vsce-sign@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign/-/vsce-sign-2.1.0.tgz#6f97f84853a6d5364836157e2e599e2810cdc121"
-  integrity sha512-9AQrqazrBgTgRSuwleLVXUrIUphY02/SFCh2TKYoLV/xifJAdblhdmEmw5gUrYSPQ3sRwNs9iyCMD14sATEE6g==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce-sign/-/vsce-sign-2.1.1.tgz#57edf12c9f1e34fd33c790da381a410c27c040eb"
+  integrity sha512-Fm9SrvxonXpmzN0eKHKS/AHb/3Gc19c7SkGfSnhYOGPiLy2o8hJlIzx314IVSH//uEiKaAbE40P47wwFtyDByg==
   optionalDependencies:
-    "@vscode/vsce-sign-alpine-arm64" "2.0.6"
-    "@vscode/vsce-sign-alpine-x64" "2.0.6"
-    "@vscode/vsce-sign-darwin-arm64" "2.0.6"
-    "@vscode/vsce-sign-darwin-x64" "2.0.6"
-    "@vscode/vsce-sign-linux-arm" "2.0.6"
-    "@vscode/vsce-sign-linux-arm64" "2.0.6"
-    "@vscode/vsce-sign-linux-x64" "2.0.6"
-    "@vscode/vsce-sign-win32-arm64" "2.0.6"
-    "@vscode/vsce-sign-win32-x64" "2.0.6"
+    "@vscode/vsce-sign-alpine-arm64" "2.0.8"
+    "@vscode/vsce-sign-alpine-x64" "2.0.8"
+    "@vscode/vsce-sign-darwin-arm64" "2.0.8"
+    "@vscode/vsce-sign-darwin-x64" "2.0.8"
+    "@vscode/vsce-sign-linux-arm" "2.0.8"
+    "@vscode/vsce-sign-linux-arm64" "2.0.8"
+    "@vscode/vsce-sign-linux-x64" "2.0.8"
+    "@vscode/vsce-sign-win32-arm64" "2.0.8"
+    "@vscode/vsce-sign-win32-x64" "2.0.8"
 
 "@vscode/vsce@3.9.2":
   version "3.9.2"
@@ -592,6 +592,11 @@ argparse@^2.0.1:
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
+argparse@^3.0.3:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-3.0.4.tgz#ba802dd75fdc3d5bdcb4339b713d62c6c5d4565d"
+  integrity sha512-fwWK3Zq22l4XJJjx5mcBHGikIk+hJqO+32dPm0Jur7+rtG5x1scOjSfdT9ZKeWHPpsya/l0HHK4tDImBkTrtvA==
+
 array-buffer-byte-length@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-buffer-byte-length/-/array-buffer-byte-length-1.0.2.tgz#384d12a37295aec3769ab022ad323a18a51ccf8b"
@@ -667,17 +672,17 @@ boundary@^2.0.0:
   integrity sha512-rJKn5ooC9u8q13IMCrW0RSp31pxBCHE3y9V/tp3TdWSLf8Em3p6Di4NBpfzbJge9YjjFEsD0RtFEjtvHL5VyEA==
 
 brace-expansion@^1.1.7:
-  version "1.1.21"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.21.tgz#edf4fab5c64d051aea5a8def49aba1c7522279f3"
-  integrity sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.22.tgz#82f87655acd0bae5c8a717bb0a81573e43ab42c0"
+  integrity sha512-CKLDTuSsN0+r1ThM0WkzzBI7dnPI6xEGfa/JnVYIK9JNBA1N1NyPwXVHor//NKD/y3sDxp764sZdLhFK7pH8XQ==
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
 brace-expansion@^5.0.8:
-  version "5.0.12"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-5.0.12.tgz#995fbb4750a77c4d16a7dc942ff2ca6ef8e675ec"
-  integrity sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-5.0.13.tgz#e2d4497370f7e385e6f96b57bd7ff11d77d85851"
+  integrity sha512-Vh3dmFbc4wZeox7M9I/0L9GfFd83Su4+yCck/OF9Gi/P/dAHn0RT7X4K9R7gMNMhDck3DvhR6QXsnQdjjgwNvQ==
   dependencies:
     balanced-match "^4.0.2"
 
@@ -1285,9 +1290,9 @@ gopd@^1.0.1, gopd@^1.2.0:
   integrity sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==
 
 graceful-fs@^4.1.6, graceful-fs@^4.2.0:
-  version "4.2.11"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
-  integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+  version "4.2.12"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.12.tgz#7f6162dee07bc600281cea1b038e5f7cf215a6c2"
+  integrity sha512-iuyGF2E4oafQfPsRrG2wtY2ILupMhvtdrhzrxB+0VcjsPpSPttpfYdjnGFGsTi5MaJFjI1jOKHPQ6UTbTj9TAw==
 
 growl@1.10.5:
   version "1.10.5"
@@ -1639,12 +1644,19 @@ js-tokens@^4.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^4.1.1, js-yaml@^4.3.0:
+js-yaml@^4.3.0:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.3.2.tgz#8e44fb14a2643c59726bb15787b5f1512cb3d3fb"
   integrity sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==
   dependencies:
     argparse "^2.0.1"
+
+js-yaml@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-5.5.0.tgz#ec843f09ffb2a54b6758a41eee109a1815d16442"
+  integrity sha512-paNr4LFIFPjeeSmwNYdrb8FafLLG/Cr2Af3GjbsHJ5CxIjH4r0c2emlmRdAtpPAieP1gRVzk6buBbVP5gBMGAg==
+  dependencies:
+    argparse "^3.0.3"
 
 json-schema-traverse@^1.0.0:
   version "1.0.0"
@@ -2153,12 +2165,12 @@ queue-microtask@^1.2.2:
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
 rc-config-loader@^4.1.3:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/rc-config-loader/-/rc-config-loader-4.1.4.tgz#6cc79042ac193ebed9f082fcba7b823d9dc143cc"
-  integrity sha512-3GiwEzklkbXTDp52UR5nT8iXgYAx1V9ZG/kDZT7p60u2GCv2XTwQq4NzinMoMpNtXhmt3WkhYXcj6HH8HdwCEQ==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/rc-config-loader/-/rc-config-loader-4.2.0.tgz#120a69092114b9f59a73a8bc4443874fc725c45f"
+  integrity sha512-PoQabZw5RBxSW9jJhI1WJ8hpLYCjF4PrkhqkkjXYKRpWTo1cn3ovdXku2spdS79dnD3pT/axXeEUnwbG8qxz9A==
   dependencies:
     debug "^4.4.3"
-    js-yaml "^4.1.1"
+    js-yaml "^5.5.0"
     json5 "^2.2.3"
     require-from-string "^2.0.2"
 
