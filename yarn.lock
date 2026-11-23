@@ -104,23 +104,23 @@
     tslib "^2.6.2"
 
 "@azure/msal-browser@^5.5.0":
-  version "5.29.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.29.1.tgz#3cbd190d29e25f8473804d8a28aa479ed3dc69cc"
-  integrity sha512-+TMoU/4h3KYUvQKZH+p1/9/iDaepDlVJQ7UMUAB6q8prPsMfsOoqA9m2alpPqLUQ48Bp7sXqN2wdhA9rOg9q1A==
+  version "5.30.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-5.30.0.tgz#d957500f0fe1ec6d9667add89f404bcc0ce4b33b"
+  integrity sha512-o/ADxWxEFcVrE65a7ssOGuxnivq8lcy+2hSGlOOwtn0gGd6iiwl3q8/BMVRorYE81UB/r4B+8WGEUxWnqP7ryA==
   dependencies:
-    "@azure/msal-common" "16.16.2"
+    "@azure/msal-common" "16.17.0"
 
-"@azure/msal-common@16.16.2":
-  version "16.16.2"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.16.2.tgz#e312f397d8f8de54acc993a7e1c29322d825fd2d"
-  integrity sha512-IVoPgAup0hnpzwC8esxPxrrnDDVe0n3mmK+UU3JRmKWySKxBQrl+a30tTP3okmJ9Wc7dh+IgoNaUXkCxb2DBSg==
+"@azure/msal-common@16.17.0":
+  version "16.17.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.17.0.tgz#3f2839a40b376a2f1a451fb35cab15fa89fb761a"
+  integrity sha512-rNvtEm7Axzj18neIk0C8kjr1ZXbJsHkWDqGedCfOiLVBjSCxWBcbJ26/I7g9owoeGKUoyrOgs73cIk7WxLd9qA==
 
 "@azure/msal-node@^7.1.0":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.2.2.tgz#84e4e3d5411183a92819f927c7bd2606cea19ee0"
-  integrity sha512-MjsAHC+KUSXYYC8P57lVXy5IgSeO+PraXzLLHZI6hcX7nx/hCokY6gTPm2JcKLI3W88mu7ozjObBVGKExZUhww==
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.2.3.tgz#09ab351ae97e8a597b010ac4537a35752382b74d"
+  integrity sha512-eRIo5XuQAJrubo4514gEnmREKI35045LItjucOEK/YNQYj3LhEpYEbBdqjlu/wmd9Rcqp2c3GJ4ynFoEqby3sg==
   dependencies:
-    "@azure/msal-common" "16.16.2"
+    "@azure/msal-common" "16.17.0"
     jsonwebtoken "^9.0.0"
 
 "@babel/code-frame@^7.26.2":
@@ -429,12 +429,12 @@
   integrity sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==
 
 "@typespec/ts-http-runtime@^0.3.0", "@typespec/ts-http-runtime@^0.3.10":
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/@typespec/ts-http-runtime/-/ts-http-runtime-0.3.10.tgz#3d84e077ec478da625aab80db618f288b6a082a0"
-  integrity sha512-vddvvtZ7sejSlCv+OIkn2ztjB1O31Fc2JsxI/YK725r3elXXlF/J3o3lbXJFRhoeWRWK1tjdZ+GTi6Fdtrp+EA==
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@typespec/ts-http-runtime/-/ts-http-runtime-0.3.11.tgz#bb2d82789ca6a36517fafc57986b27f5d263ae90"
+  integrity sha512-KZlacW7zFdcIOAcpNiV5U9fy0Tfgw7xdEc4rVyuUtQS+UR1Sn32PXuAz+AJ70Y0yzTWh62/pEEpFmWUJl6YySw==
   dependencies:
-    http-proxy-agent "^9.1.0"
-    https-proxy-agent "^9.1.0"
+    http-proxy-agent "^7.0.0"
+    https-proxy-agent "^7.0.0"
     tslib "^2.6.2"
 
 "@vscode/vsce-sign-alpine-arm64@2.0.8":
@@ -548,10 +548,10 @@ agent-base@6:
   dependencies:
     debug "4"
 
-agent-base@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-9.0.0.tgz#ec9efb08314e1e75b0852d74aabf9a387f99834e"
-  integrity sha512-TQf59BsZnytt8GdJKLPfUZ54g/iaUL2OWDSFCCvMOhsHduDQxO8xC4PNeyIkVcA5KwL2phPSv0douC0fgWzmnA==
+agent-base@^7.1.0, agent-base@^7.1.2:
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-7.1.4.tgz#e3cd76d4c548ee895d3c3fd8dc1f6c5b9032e7a8"
+  integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
 
 ajv@^8.0.1, ajv@^8.17.1:
   version "8.20.0"
@@ -1386,14 +1386,13 @@ http-proxy-agent@^4.0.1:
     agent-base "6"
     debug "4"
 
-http-proxy-agent@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-9.1.0.tgz#fd8b39dcb58ac8046139e5f4ea80de78e8beaf7b"
-  integrity sha512-2NxoveTT58mjYT4n3RPTEfCZGLMbidoO8XEieXfpSYxu+PQJ1qpx4ypwH6N+uF9twBPIvRRgvkvW5HUTYWENig==
+http-proxy-agent@^7.0.0:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-7.0.2.tgz#9a8b1f246866c028509486585f62b8f2c18c270e"
+  integrity sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==
   dependencies:
-    agent-base "9.0.0"
+    agent-base "^7.1.0"
     debug "^4.3.4"
-    proxy-agent-negotiate "1.1.0"
 
 https-proxy-agent@^2.2.1:
   version "2.2.4"
@@ -1411,14 +1410,13 @@ https-proxy-agent@^5.0.0:
     agent-base "6"
     debug "4"
 
-https-proxy-agent@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-9.1.0.tgz#a9f60f79bc1578c37b166dd7f58b6bcb5c57e44b"
-  integrity sha512-ag87y7cJJ9/3+GxFr8Oy4O5faDsGRGnBGsJj/YjOSsSx/5eadKLYTMPlzuR6obgoCDDm0abAAZitXXQkMOPSpA==
+https-proxy-agent@^7.0.0:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz#da8dfeac7da130b05c2ba4b59c9b6cd66611a6b9"
+  integrity sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==
   dependencies:
-    agent-base "9.0.0"
-    debug "^4.3.4"
-    proxy-agent-negotiate "1.1.0"
+    agent-base "^7.1.2"
+    debug "4"
 
 iconv-lite@0.6.3, iconv-lite@^0.6.3:
   version "0.6.3"
@@ -1433,9 +1431,9 @@ ieee754@^1.1.13:
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^7.0.3:
-  version "7.0.14"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.14.tgz#a52b081dfb4d77e947e04d5f9e320b16f1873959"
-  integrity sha512-wCBiZ77u1tuWde6G/nfOtLaCTYcFDU5yCzARzK10y+rLhzYoL7a7yEemcopcc2Mzow7gZOIjnV2ym1NYmdiJOQ==
+  version "7.0.16"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.16.tgz#8c593ab7a7193e663f810203690c9cba851b6d3a"
+  integrity sha512-52N+Y4HRMOJmbLmr+DqO4iSRyyB7N52gm7PWCT6h0p978+oKbqHCB7gIJIwZvBUsjlSdWbrBFqUSmIFNZMpn0A==
 
 index-to-position@^1.1.0:
   version "1.2.0"
@@ -1935,9 +1933,9 @@ napi-build-utils@^2.0.0:
   integrity sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==
 
 node-abi@^3.3.0:
-  version "3.101.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.101.0.tgz#3c99775cb0a4ddf4f3f0dad2a9ad940d67ef0052"
-  integrity sha512-bkb/RkuWCE64eWu1PCh3Fu2pGc9mKRs+kOE+FU2bGHRYlQa86/D321DSATV54AsCQMKz3/xSt9sRgraZTpqdhQ==
+  version "3.104.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.104.0.tgz#e90f75184a5cb7ebe2b22759a8686c60494a0885"
+  integrity sha512-J2lVAHTQ8v1J7hl2k1eX70d/Fm+HE1EyUes2dOew59JgBlAW6NB7DABI8kdrgRPehhepJd18p1ivekA8BF7AOg==
   dependencies:
     semver "^7.3.5"
 
@@ -1971,9 +1969,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 object-inspect@^1.13.3, object-inspect@^1.13.4:
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.4.tgz#8375265e21bc20d0fa582c22e1b13485d6e00213"
-  integrity sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.14.0.tgz#8d373f7293f9d0ba656de41bdb7a55992255af46"
+  integrity sha512-IVgHNlp/jwQX271+Xzoq9LZNTWXxZK+cEOrGBOBxXNbn7fapnZ+Ts6TVMgNOuAezwG2wdtnMX97tTPK6VEnuOQ==
 
 object-is@^1.1.5:
   version "1.1.6"
@@ -2132,11 +2130,6 @@ prebuild-install@^7.0.1:
     simple-get "^4.0.0"
     tar-fs "^2.0.0"
     tunnel-agent "^0.6.0"
-
-proxy-agent-negotiate@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/proxy-agent-negotiate/-/proxy-agent-negotiate-1.1.0.tgz#de7d37aede9d71e74346125d6f484fac8092b615"
-  integrity sha512-N8IBcM3UgCVzz2L2Lqv8DVntDnnC8/hiV4nEDUPkqq72TPUgYWjQc+bdZlBPZK9LzPAvOY//gAt0S0DApoOXWQ==
 
 pump@^3.0.0:
   version "3.0.4"
